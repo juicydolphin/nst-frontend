@@ -1,0 +1,213 @@
+.slider__main {
+    max-height: 100%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+}
+
+.slider__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.slider__dates {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.slider__dates-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.slider__dates-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.slider__dates-text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0167B3;
+    cursor: pointer;
+}
+
+.slider__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+}
+
+.slider__switchers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+}
+
+.slider__switcher {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0167B3;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.slider__switcher-active {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #0167B3;
+    cursor: pointer;
+}
+
+.slider__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.slider__years {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1117px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #999999;
+}
+
+.slider__months {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1117px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #999999;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1117px;
+
+}
+
+.slider {
+    cursor: pointer;
+    width: 1117px;
+}
+
+.slider__track {
+    height: 10px;
+    background: #EDF1F8;
+    border-radius: 100px;
+    max-width: 1117px;
+}
+
+.slider__track:nth-child(2) {
+    background-color: #5CADEA;
+}
+
+.thumb {
+    width: 0.75rem;
+    height: 0.75rem;
+    background: #FFFFFF;
+    border: 5px solid #5CADEA;
+    border-radius: 50%;
+    box-shadow: 0px 3px 5px rgba(31, 85, 132, 0.2);
+    cursor: pointer;
+    position: absolute;
+    top: -7px;
+}
+
+.slider__year-number {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #333333;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 40px;
+    height: 18px;
+}
+
+.slider__month-number {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    width: 27px;
+    height: 18px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #999999;
+    flex: none;
+    flex-grow: 0;
+}
+
+.slider__tooltip-left {
+    width: 112px;
+    height: 66px;
+    position: relative;
+    background: transparent;
+    left: -64px;
+    bottom: 91px;
+}
+
+.slider__tooltip-right {
+    width: 112px;
+    height: 66px;
+    position: relative;
+    background: transparent;
+    left: -64px;
+    bottom: -17px;
+}
+
+.slider__tooltip-text {
+    color: #0167B3;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
