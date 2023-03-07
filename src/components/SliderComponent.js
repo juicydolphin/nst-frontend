@@ -90,12 +90,12 @@ const SliderComponent = (props) => {
             let start = (startYearSelected - startDate) * 12 + startMonthSelected - 1
             let end = (endYearSelected - startDate) * 12 + endMonthSelected - 1
             setStart(start)
-            setEnd(props.switcher ? end : 36)
+            setEnd(end)
             setLeftDate(props.selectedDates[0])
             setRightDate(props.selectedDates[1])
 
 
-        }, [props.selectedDates, endMonthSelected, endYearSelected, props.switcher, startDate, startMonthSelected, startYearSelected])
+        }, [props.selectedDates, endMonthSelected, endYearSelected, startDate, startMonthSelected, startYearSelected])
 
         //Расчет положения тумблеров в зависимости от выбранного промежутка
 
